@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montez&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Dancing Script', cursive;
+    box-sizing: border-box;
+    text-align: center;
+    color: #fff;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.wrapper {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid black;
+}
+
+.wrapper img:hover {
+    filter: brightness(3);
+    filter: drop-shadow(4px 4px 4px black);
+}
+
+.testimonial {
+    padding: 100px;
+    
+}
+
+header h1 {
+    font-size: 50px;
+    font-weight: 400;
+    color: black;
+    text-transform: uppercase;
+    transition: .5s ease;
+    opacity: 1;
+    background: transparent;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+}
+
+header h1:after {
+    content: "";
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 370px;
+    background-color: crimson;
+}
+
+.pic img {
+    height: 350px;
+    width: 330px;
+    border: 3px solid #0d0e0d;
+    border-radius: 50%;
+    margin-top: 60px;
+    padding: 7px;
+}
+
+h2 {
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    color: rgb(25, 26, 26);
+}
+
+h2:after {
+    content: "";
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 170px;
+    background-color: crimson;
+}
+
+
+p {
+    margin-bottom: 20px;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #141212;
+}
+
+h3 {
+   font-size: 27px;
+   color: black;
+}
+
+h3:after {
+    content: "";
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 370px;
+    background-color: crimson;
+}
+
+ul li {
+    color: #0f0e0e;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    list-style-position:inside;
+    list-style-image: url("https://img.icons8.com/external-yogi-aprelliyanto-outline-color-yogi-aprelliyanto/32/external-teddy-bear-children-toy-yogi-aprelliyanto-outline-color-yogi-aprelliyanto.png" );
+    font-size: 25px;
+}
+
+
+#footer p {
+    color: rgb(223, 44, 31);
+    margin-top: 200px;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+#footer .social-icon {
+    display: flex;
+    margin-bottom: 10px;
+    height: 100px;
+}
+
+#footer .social-item {
+    margin-left: 256px;
+    filter: brightness(1); 
+    
+}
+
+
